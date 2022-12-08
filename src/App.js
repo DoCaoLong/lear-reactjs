@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./components/Card/Card";
 import { Dropdown } from "./components/inversion-of-control";
 // import { GlobalStyles } from "./GlobalStyles";
 
@@ -27,13 +28,14 @@ function App() {
                 visibleIconCheck
                 visibleSearch={true}
             ></Dropdown> */}
-            <Dropdown
+            {/* <Dropdown
                 placeholder={`Please select your job`}
                 options={options}
                 inputPlaceholder={`Search your job ...`}
                 visibleIconCheck
                 visibleSearch={true}
-            ></Dropdown>
+            ></Dropdown> */}
+<Card/>            
         </div>
     );
 }
